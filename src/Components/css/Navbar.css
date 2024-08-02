@@ -1,0 +1,34 @@
+.navbar {
+  height: max-content;
+  width: 100%;
+  border-radius: 0px 15px 0px 0px;
+  background-color: #646262b8 !important;
+}
+
+.collapse {
+  justify-content: space-around;
+}
+
+.container-fluid {
+  flex-wrap: nowrap !important;
+}
+
+.navbar .navbar-nav li {
+  font-size: 2rem;
+  margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.navbar .navbar-nav li svg {
+  color: #b5b5b5 !important;
+  cursor: pointer;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.search-icon-image {
+  font-size: 2.5rem;
+  color: #b5b5b5;
+  cursor: pointer;
+}
