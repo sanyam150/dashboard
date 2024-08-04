@@ -1,9 +1,8 @@
 .sidebar_wrapper {
   width: 60px;
-  position: relative;
-  height: 100%;
+  position: absolute;
+  height: 600px;
   padding: 10px 10px 10px 0px;
-  background-color: #646262b8 !important;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -14,7 +13,7 @@
   top: 6%;
   border-radius: 5px;
   transition: top 0.25s ease-in-out;
-  background-color: #1b66c9;
+  background-color: #7293fd;
 }
 
 .sideBar_icons_image {
@@ -61,5 +60,5 @@
 }
 
 .add_backgroundColor {
-  color: #1b66c9;
+  color: #7293fd;
 }

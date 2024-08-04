@@ -1,0 +1,31 @@
+.orderActivities_wrapper {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.order_activities_wrapper_1 {
+  width: 682px;
+  height: 150px;
+}
+
+.order_activities_wrapper_2 {
+  height: 240px;
+  width: 30%;
+  min-width: 305px;
+  border-radius: 8px;
+  background-color: #202028;
+}
+
+.order_activities_data {
+  display: flex;
+  margin: 10px 5px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1350px) {
+  .orderActivities_wrapper {
+    flex-wrap: wrap;
+  }
+}

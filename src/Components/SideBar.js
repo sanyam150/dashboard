@@ -23,7 +23,7 @@ const SideBar = () => {
   return (
     <div className='sidebar_wrapper'>
       <div className='sidebar_gridIcon_wrapper'>
-        <BsFillGridFill style={{ color: '#1b66c9' }} />
+        <BsFillGridFill style={{ color: '#7192fc' }} />
       </div>
       <div className='sidebar_container'>
         <div className='sideBar_slider_wrapper'>

@@ -1,0 +1,66 @@
+.order_information_wrapper {
+  padding: 5px;
+  color: white;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.order_info_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.order_information_wrapper_1 {
+  display: flex;
+}
+
+.order_information_wrapper_2 {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #202028;
+  border-radius: 10px;
+  padding: 4px;
+  min-width: 268px;
+}
+
+.order_information_containers {
+  height: 120px;
+  background-color: #202028;
+  margin: 0px 10px 0px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.order_info_circularProgress_wrapper {
+  width: 125px;
+  display: flex;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1860px) {
+  .order_information_wrapper {
+    flex-wrap: wrap;
+  }
+  .order_information_wrapper_1 {
+    margin: 0px 0px 10px 0px;
+  }
+  .order_information_wrapper_2 {
+    display: block;
+  }
+  .order_info_profit_wrapper {
+    text-align: center;
+  }
+  .order_info_circularProgress_wrapper {
+    margin: auto;
+  }
+}

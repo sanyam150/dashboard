@@ -3,11 +3,23 @@ body {
 }
 
 .dashboard_container {
-  width: 60%;
-  height: 600px;
+  position: relative;
+  width: 55%;
+  min-height: 800px;
+  max-height: 830px;
   margin: 30px auto auto auto;
   border-radius: 15px;
   display: flex;
-  min-width: 600px;
+  min-width: 755px;
   background-color: black;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.orderActivities_info_wrapper {
+  position: relative;
+  top: 130px;
+  left: 61px;
+  width: calc(100% - 62px);
+  height: max-content;
 }

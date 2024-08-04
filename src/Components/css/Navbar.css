@@ -1,8 +1,10 @@
 .navbar {
   height: max-content;
-  width: 100%;
+  width: calc(100% - 60px);
   border-radius: 0px 15px 0px 0px;
-  background-color: #646262b8 !important;
+  background-color: #202028 !important;
+  position: absolute;
+  left: 60px;
 }
 
 .collapse {
@@ -21,6 +23,12 @@
 .navbar .navbar-nav li svg {
   color: #b5b5b5 !important;
   cursor: pointer;
+  padding: 5px;
+  border-radius: 9px;
+}
+
+.navbar .navbar-nav li svg:hover {
+  box-shadow: 0px 0px 4px 1px white;
 }
 
 .form-control:focus {
