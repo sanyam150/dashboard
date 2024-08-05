@@ -1,0 +1,35 @@
+.CustomerReview_wrapper {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.CustomerReview_wrapper_1 {
+  width: 682px;
+  background-color: #202028;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px 0px;
+  max-height: 300px;
+}
+
+.CustomerReview_wrapper_2 {
+  width: 30%;
+  background-color: #202028;
+  border-radius: 8px;
+  margin: 5px 0px;
+  padding: 5px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1500px) {
+  .CustomerReview_wrapper_2 {
+    width: 682px;
+    margin-top: 10px;
+    padding: 15px;
+  }
+}

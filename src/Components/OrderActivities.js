@@ -14,9 +14,9 @@ const OrderActivities = () => {
             <div
               style={{
                 display: 'flex',
-                fontSize: '2rem',
-                width: '60px',
-                height: '60px',
+                fontSize: '1.5rem',
+                width: '50px',
+                height: '50px',
                 justifyContent: 'center',
                 alignItems: 'center',
                 backgroundColor: `${data.background_color}`,
@@ -28,7 +28,6 @@ const OrderActivities = () => {
             </div>
             <div
               style={{
-                fontSize: '1.5rem',
                 display: 'flex',
                 alignItems: 'center',
                 paddingLeft: '10px',
@@ -39,7 +38,7 @@ const OrderActivities = () => {
             </div>
             <div
               style={{
-                fontSize: '2rem',
+                fontSize: '1.5rem',
                 display: 'flex',
                 alignItems: 'center',
               }}

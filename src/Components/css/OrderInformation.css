@@ -1,7 +1,6 @@
 .order_information_wrapper {
   padding: 5px;
   color: white;
-  margin-top: 5px;
   display: flex;
   justify-content: space-around;
 }
@@ -47,7 +46,7 @@
 
 /* Media Query */
 
-@media only screen and (max-width: 1860px) {
+@media only screen and (max-width: 1500px) {
   .order_information_wrapper {
     flex-wrap: wrap;
   }

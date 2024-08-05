@@ -4,16 +4,17 @@ body {
 
 .dashboard_container {
   position: relative;
-  width: 55%;
-  min-height: 800px;
-  max-height: 830px;
-  margin: 30px auto auto auto;
+  width: 70%;
+  min-height: 770px;
+  max-height: 900px;
+  margin: 1px auto auto auto;
   border-radius: 15px;
   display: flex;
   min-width: 755px;
   background-color: black;
   overflow-y: auto;
   overflow-x: hidden;
+  max-width: 1060px;
 }
 
 .orderActivities_info_wrapper {

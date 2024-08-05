@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import OrderInformation from './Components/OrderInformation';
 import { orderInformationMockData } from './mockData/mockData';
 import OrderActivities from './Components/OrderActivities';
+import CustomerReview from './Components/CustomerReview';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
           profits={orderInformationMockData.NetProfit}
         />
         <OrderActivities />
+        <CustomerReview
+          recentOrders={orderInformationMockData.recentOrders}
+          customerFeedBack={orderInformationMockData.customerFeedBack}
+        />
       </div>
     </div>
   );

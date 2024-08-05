@@ -4,6 +4,7 @@ import { FaSackDollar } from 'react-icons/fa6';
 import { AiOutlineAim } from 'react-icons/ai';
 import { IoFastFood } from 'react-icons/io5';
 import { BiSolidDish } from 'react-icons/bi';
+import { FaUserCircle } from 'react-icons/fa';
 
 export const orderInformationMockData = {
   orderInformation: [
@@ -63,6 +64,58 @@ export const orderInformationMockData = {
       icon: <BiSolidDish />,
       icon_color: '#20769d',
       background_color: '#20485f',
+    },
+  ],
+  recentOrders: [
+    {
+      name: 'Wade Warren',
+      orderNo: '15478256',
+      amount: '$124',
+      status: 'Delivered',
+    },
+    {
+      name: 'Jane Cooper',
+      orderNo: '48965786',
+      amount: '$365.02',
+      status: 'Delivered',
+    },
+    {
+      name: 'Guy Hawkins',
+      orderNo: '78958215',
+      amount: '$45.88',
+      status: 'Cancelled',
+    },
+    {
+      name: 'Kristin Watson',
+      orderNo: '20965732',
+      amount: '$65',
+      status: 'Pending',
+    },
+    {
+      name: 'Cody Fisher',
+      orderNo: '95715620',
+      amount: '$545',
+      status: 'Delivered',
+    },
+  ],
+  customerFeedBack: [
+    {
+      name: 'Jenny Wilson',
+      rating: '4',
+      review: 'The food was excellent and so was the service',
+      icon: <FaUserCircle />,
+    },
+    {
+      name: 'Dianne Russell',
+      rating: '5',
+      review: 'We enjoyed the food. Perfect service',
+      icon: <FaUserCircle />,
+    },
+    {
+      name: 'Devon Lane',
+      rating: '4',
+      review: 'Perfect service',
+      icon: <FaUserCircle />,
     },
   ],
 };
