@@ -26,8 +26,11 @@ const OrderActivities = ({ chartData }) => {
         <Chart data={chartData} />
       </div>
       <div className='order_activities_wrapper_2'>
-        {orderActivity.map((data) => (
-          <div className='order_activities_data'>
+        {orderActivity.map((data, index) => (
+          <div
+            className='order_activities_data'
+            key={`order_activities_${index}`}
+          >
             <div
               style={{
                 display: 'flex',

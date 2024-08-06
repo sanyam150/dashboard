@@ -20,6 +20,7 @@
   margin-top: 3px;
   border-radius: 8px;
   background-color: #202028;
+  margin-left: 3px;
 }
 
 .order_activities_data {
@@ -32,5 +33,25 @@
 @media only screen and (max-width: 1350px) {
   .orderActivities_wrapper {
     flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1492px) {
+  .order_activities_wrapper_2 {
+    height: auto;
+    width: auto;
+    margin-top: 3px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent !important;
+  }
+  .order_activities_data {
+    display: flex;
+    margin: 5px 5px;
+    width: 220px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #202028 !important;
   }
 }

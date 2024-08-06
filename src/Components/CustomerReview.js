@@ -17,8 +17,8 @@ const CustomerReview = ({ recentOrders, customerFeedBack }) => {
             </tr>
           </thead>
           <tbody>
-            {recentOrders.map((data) => (
-              <tr>
+            {recentOrders.map((data, index) => (
+              <tr key={`recentOrders_${index}`}>
                 <th scope='row'>{data.name}</th>
                 <td>{data.orderNo}</td>
                 <td>{data.amount}</td>
@@ -54,8 +54,11 @@ const CustomerReview = ({ recentOrders, customerFeedBack }) => {
       </div>
       <div className='CustomerReview_wrapper_2'>
         <h4>Customer's Feedback</h4>
-        {customerFeedBack.map((data) => (
-          <div className='customerFeedBack_wrapper'>
+        {customerFeedBack.map((data, index) => (
+          <div
+            className='customerFeedBack_wrapper'
+            key={`customerFeedBack_${index}`}
+          >
             <div>
               <span
                 style={{

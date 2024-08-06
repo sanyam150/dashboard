@@ -19,7 +19,7 @@ body {
   position: relative;
   width: 70%;
   min-height: 740px;
-  max-height: 900px;
+  height: 100%;
   margin: 1px auto auto auto;
   border-radius: 15px;
   display: flex;

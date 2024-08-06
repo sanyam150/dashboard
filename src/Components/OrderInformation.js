@@ -1,13 +1,17 @@
 import React from 'react';
 import './css/OrderInformation.css';
 import CircularProgress from './CircularProgress';
+import { FaCaretDown, FaCaretUp } from 'react-icons/fa';
 
 const OrderInformation = ({ OrderInformation, profits }) => {
   return (
     <div className='order_information_wrapper'>
       <div className='order_information_wrapper_1'>
-        {OrderInformation.map((data) => (
-          <div className='order_information_containers'>
+        {OrderInformation.map((data, index) => (
+          <div
+            className='order_information_containers'
+            key={`order_information${index}`}
+          >
             <div
               className='order_info_icons'
               style={{
@@ -33,12 +37,26 @@ const OrderInformation = ({ OrderInformation, profits }) => {
               </span>
               <span>
                 {data.percentage > 0 ? (
-                  <span style={{ color: '#09926b', fontWeight: '800' }}>
-                    &#11205; {data.percentage}%
+                  <span
+                    style={{
+                      color: '#09926b',
+                      fontWeight: '800',
+                      display: 'flex',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <FaCaretUp /> {data.percentage}%
                   </span>
                 ) : (
-                  <span style={{ color: '#cf4d4d', fontWeight: '800' }}>
-                    &#11206; {data.percentage.toString().slice(1)}%
+                  <span
+                    style={{
+                      color: '#cf4d4d',
+                      fontWeight: '800',
+                      display: 'flex',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <FaCaretDown /> {data.percentage.toString().slice(1)}%
                   </span>
                 )}
               </span>
@@ -68,9 +86,11 @@ const OrderInformation = ({ OrderInformation, profits }) => {
                 fontWeight: '800',
                 paddingLeft: '5px',
                 color: '#00c68a',
+                display: 'flex',
+                alignItems: 'center',
               }}
             >
-              &#11205; {profits.percentage}%
+              <FaCaretUp /> {profits.percentage}%
             </span>
           </div>
         </div>
