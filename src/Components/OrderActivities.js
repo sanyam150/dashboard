@@ -2,12 +2,29 @@ import React from 'react';
 import './css/orderActivities.css';
 import { orderInformationMockData } from '../mockData/mockData';
 import { RiArrowRightSLine } from 'react-icons/ri';
-
-const OrderActivities = () => {
+import Chart from './Chart';
+import SelectList from './DropDownButton';
+const OrderActivities = ({ chartData }) => {
   const { orderActivity } = orderInformationMockData;
   return (
     <div className='orderActivities_wrapper'>
-      <div className='order_activities_wrapper_1'></div>
+      <div className='order_activities_wrapper_1'>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            marginTop: '3px',
+            position: 'relative',
+            zIndex: 1000,
+          }}
+        >
+          <span style={{ fontWeight: '700', paddingLeft: '20px' }}>
+            Activity
+          </span>
+          <SelectList />
+        </div>
+        <Chart data={chartData} />
+      </div>
       <div className='order_activities_wrapper_2'>
         {orderActivity.map((data) => (
           <div className='order_activities_data'>

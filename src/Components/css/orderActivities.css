@@ -2,16 +2,22 @@
   color: white;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .order_activities_wrapper_1 {
   width: 682px;
+  background-color: #202028 !important;
+  margin-top: 4px;
+  border-radius: 8px;
+  height: 185px;
 }
 
 .order_activities_wrapper_2 {
   height: 185px;
   width: 30%;
   min-width: 275px;
+  margin-top: 3px;
   border-radius: 8px;
   background-color: #202028;
 }

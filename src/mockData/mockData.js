@@ -118,4 +118,5 @@ export const orderInformationMockData = {
       icon: <FaUserCircle />,
     },
   ],
+  chartData: [10, 20, 15, 30, 25, 35, 40, 20, 15, 30, 25, 35],
 };

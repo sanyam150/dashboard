@@ -18,7 +18,7 @@ function App() {
           OrderInformation={orderInformationMockData.orderInformation}
           profits={orderInformationMockData.NetProfit}
         />
-        <OrderActivities />
+        <OrderActivities chartData={orderInformationMockData.chartData} />
         <CustomerReview
           recentOrders={orderInformationMockData.recentOrders}
           customerFeedBack={orderInformationMockData.customerFeedBack}

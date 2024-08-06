@@ -4,5 +4,6 @@
   left: 60px;
   width: calc(100% - 60px);
   color: white;
-  padding: 1rem;
+  padding: 0 1.5rem;
+  margin: 0px;
 }

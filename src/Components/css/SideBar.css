@@ -59,6 +59,10 @@
   width: 100%;
 }
 
+.sideBar_icons_wrapper_list_2 svg {
+  transform: rotate(90deg);
+}
+
 .add_backgroundColor {
   color: #7293fd;
 }

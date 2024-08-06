@@ -1,3 +1,16 @@
+::-webkit-scrollbar {
+  width: 5px;
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+::-webkit-scrollbar-corner {
+  background: grey;
+}
+
 body {
   background-color: rgb(204, 202, 202);
 }
@@ -5,7 +18,7 @@ body {
 .dashboard_container {
   position: relative;
   width: 70%;
-  min-height: 770px;
+  min-height: 740px;
   max-height: 900px;
   margin: 1px auto auto auto;
   border-radius: 15px;
@@ -19,7 +32,7 @@ body {
 
 .orderActivities_info_wrapper {
   position: relative;
-  top: 130px;
+  top: 96px;
   left: 61px;
   width: calc(100% - 62px);
   height: max-content;
